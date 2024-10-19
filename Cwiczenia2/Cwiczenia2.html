@@ -1,209 +1,247 @@
 <html>
 <head>
     <title>Strona na cwiczenia 2</title>
+    <meta charset="utf-8">
+    <meta name="description" content="Strona przygotowana na drugie laboratoria aplikacji webowych na platforme .net">
+    <meta name="keywords" content="HTML, Example">
+    <meta name="author" , content="Kacper Kawecki">
+    <meta name="viewport" , content="width-device-width, initial-scale=1.0">
 </head>
 
 <body>
-    <h2>Podpunkt a)</h2>
-    <p>&amp;, &pi;, &infin;, &reg;, &divide;</p>
+    <a id="top"></a>
 
-    <h2>Podpunkt b)</h2>
-    <p>To jest tekst z formatowaniem <b>wytluszczonym</b>, <i>pochylonym</i>, <u>podkreslonym</u>, <del>przekreslonym</del> i <sup>w indeksie gornym</sup></p>
+    <header>
+        <p><a href="#lista_uporzadkowana">Przejdz do listy uporzadkowanej</a></p>
+        <p><a href="#lista_nieuporzadkowana">Przejdz do listy nieuporzadkowanej</a></p>
+        <p><a href="#lista_definicji">Przejdz do listy definicji</a></p>
+        <p><a href="#lista_zagniezdzona">Przejdz do list zagniezdzonych</a></p>
+        <p><a href="#tabela">Przejdz do tabeli</a></p>
+        <p><a href="#formularz">Przejdz do formularza</a></p>
+        <p><a href="#bottom">Przejdz na koniec strony</a></p>
+    </header>
 
-    <h2>Podpunkt c)</h2>
-    <p>
-        <ol>
-            <li>Pierwszy element</li>
-            <li>Drugi element</li>
-            <li>Trzeci element</li>
-        </ol>
-    </p>
+    <main>
+        <h2>Podpunkt a) Znaki specjalne</h2>
+        <p>&amp;, &pi;, &infin;, &reg;, &divide;</p>
 
-    <h2>Podpunkt d)</h2>
-    <p>
-        <ul>
-            <li>Jakis element</li>
-            <li>Inny element</li>
-            <li>Przykladowy element</li>
-        </ul>
-    </p>
+        <h2>Podpunkt b) Formatowanie</h2>
+        <p>To jest tekst z formatowaniem <b>wytluszczonym</b>, <i>pochylonym</i>, <u>podkreslonym</u>, <del>przekreslonym</del> i <sup>w indeksie gornym</sup></p>
 
-    <h2>Podpunkt e)</h2>
-    <p>
-        <dl>
-            <dt>Kon</dt>
-            <dd>Kon jaki jest kazdy widzi</dd>
-            <dt>Smok</dt>
-            <dd>Smoka pokonaæ trudno, ale staraæ siê trzeba</dd>
-            <dt>Chameleon</dt>
-            <dd>Zwierzatko Cudzoziemskie, w Afryce sie znajduje, miedzy Czworo Nozne Zwierzeta od Jonstona policzone, podobne postacia do Jaszczurki</dd>
-        </dl>
-    </p>
+        <a id="lista_uporzadkowana"></a>
+        <h2>Podpunkt c) Lista uporzadkowana</h2>
+        <p>
+            <ol>
+                <li>Pierwszy element</li>
+                <li>Drugi element</li>
+                <li>Trzeci element</li>
+            </ol>
+        </p>
 
-    <h2>Podpunkt f)</h2>
-    <p>
-        <ul>
-            <li>
-                Poziom 1
-                <ul>
-                    <li>
-                        Poziom 2, Element 1
-                        <ul>
-                            <li>
-                                Poziom 3, Element 1
-                                <ul>
-                                    <li>Poziom 4, Element 1</li>
-                                    <li>Poziom 4, Element 2</li>
-                                </ul>
-                            </li>
-                            <li>Poziom 3, Element 2</li>
-                        </ul>
-                    </li>
-                    <li>Poziom 2, Element 2</li>
-                </ul>
-            </li>
-            <li>
-                Poziom 1, Element 2
-                <ol>
-                    <li>Poziom 2, Element 1</li>
-                    <li>
-                        Poziom 2, Element 2
-                        <ol>
-                            <li>
-                                Poziom 3, Element 1
-                                <ol>
-                                    <li>Poziom 4, Element 1</li>
-                                    <li>Poziom 4, Element 2</li>
-                                </ol>
-                            </li>
-                        </ol>
-                    </li>
-                </ol>
-            </li>
-        </ul>
-    </p>
+        <a id="lista_nieuporzadkowana"></a>
+        <h2>Podpunkt d) Lista nieuporzadkowana</h2>
+        <p>
+            <ul>
+                <li>Jakis element</li>
+                <li>Inny element</li>
+                <li>Przykladowy element</li>
+            </ul>
+        </p>
 
-    <h2>Podpunkt g)</h2>
-    <p>
-        <table border="1" cellspacing="0" cellpadding="10">
-            <thead>
-                <tr>
-                    <th>Godzina</th>
-                    <th>Poniedzia³ek</th>
-                    <th>Wtorek</th>
-                    <th>Œroda</th>
-                    <th>Czwartek</th>
-                    <th>Pi¹tek</th>
-                </tr>
-            </thead>
+        <a id="lista_definicji"></a>
+        <h2>Podpunkt e) Lista definicji</h2>
+        <p>
+            <dl>
+                <dt>Kon</dt>
+                <dd>Kon, jaki jest, kazdy widzi</dd>
+                <dt>Smok</dt>
+                <dd>Smoka pokonac trudno, ale starac sie trzeba</dd>
+                <dt>Chameleon</dt>
+                <dd>Zwierzatko cudzoziemskie, w Afryce sie znajduje, podobne postacia do jaszczurki</dd>
+            </dl>
+        </p>
 
-            <tbody>
-                <tr>
-                    <td>9:15 - 11:00</td>
-                    <td>Cyberbezpieczenstwo wyklad</td>
-                    <td>Programowanie baz danych projekt</td>
-                    <td colspan="3"></td>
-                </tr>
-                <tr>
-                    <td>11:15 - 13:00</td>
-                    <td></td>
-                    <td>Programowanie baz danych wyklad</td>
-                    <td>Nordic walking cwiczenia</td>
-                    <td>Aplikacje webowe wyklad</td>
-                    <td>Cyberbezpieczenstwo laby</td>
-                </tr>
-                <tr>
-                    <td>13:15 - 15:00</td>
-                    <td>Aplikacje webowe laby</td>
-                    <td>Techniki prezentacji seminarium</td>
-                    <td></td>
-                    <td>Projektowanie oprogramowania projekt</td>
-                    <td rowspan="5"></td>
-                </tr>
-                <tr>
-                    <td>15:15 - 16:55</td>
-                    <td rowspan="4"></td>
-                    <td></td>
-                    <td>Aplikacje mobilne wyklad</td>
-                    <td>Projektowanie oprogramowania wyklad</td>
-                </tr>
-                <tr>
-                    <td>17:05 - 18:45</td>
-                    <td>Podstawy internetu rzeczy wyklad</td>
-                    <td rowspan="2"></td>
-                    <td>Podstawy internetu rzeczy laby</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Aplikacje mobilne laby</td>
-                    <td></td>
-                </tr>
-            </tbody>
-        </table>
-    </p>
+        <a id="lista_zagniezdzona"></a>
+        <h2>Podpunkt f) Zagniezdzone listy</h2>
+        <p>
+            <ul>
+                <li>
+                    Poziom 1
+                    <ul>
+                        <li>
+                            Poziom 2, Element 1
+                            <ul>
+                                <li>
+                                    Poziom 3, Element 1
+                                    <ul>
+                                        <li>Poziom 4, Element 1</li>
+                                        <li>Poziom 4, Element 2</li>
+                                    </ul>
+                                </li>
+                                <li>Poziom 3, Element 2</li>
+                            </ul>
+                        </li>
+                        <li>Poziom 2, Element 2</li>
+                    </ul>
+                </li>
+                <li>
+                    Poziom 1, Element 2
+                    <ol>
+                        <li>Poziom 2, Element 1</li>
+                        <li>
+                            Poziom 2, Element 2
+                            <ol>
+                                <li>
+                                    Poziom 3, Element 1
+                                    <ol>
+                                        <li>Poziom 4, Element 1</li>
+                                        <li>Poziom 4, Element 2</li>
+                                    </ol>
+                                </li>
+                            </ol>
+                        </li>
+                    </ol>
+                </li>
+            </ul>
+        </p>
 
-    <h2>Podpunkt h)</h2>
-    <form action="/submit_form" method="post">
-        <label for="login">Login:</label>
-        <input type="text" id="login" name="login" required><br><br>
+        <a id="tabela"></a>
+        <h2>Podpunkt g) Tabela</h2>
+        <p>
+            <table border="1" cellspacing="0" cellpadding="10">
+                <thead>
+                    <tr>
+                        <th>Godzina</th>
+                        <th>Poniedzialek</th>
+                        <th>Wtorek</th>
+                        <th>Sroda</th>
+                        <th>Czwartek</th>
+                        <th>Piatek</th>
+                    </tr>
+                </thead>
 
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required><br><br>
+                <tbody>
+                    <tr>
+                        <td>9:15 - 11:00</td>
+                        <td>Cyberbezpieczenstwo wyklad</td>
+                        <td>Programowanie baz danych projekt</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>11:15 - 13:00</td>
+                        <td></td>
+                        <td>Programowanie baz danych wyklad</td>
+                        <td>Nordic walking cwiczenia</td>
+                        <td>Aplikacje webowe wyklad</td>
+                        <td>Cyberbezpieczenstwo laboratoria</td>
+                    </tr>
+                    <tr>
+                        <td>13:15 - 15:00</td>
+                        <td>Aplikacje webowe laboratoria</td>
+                        <td>Techniki prezentacji seminarium</td>
+                        <td></td>
+                        <td>Projektowanie oprogramowania projekt</td>
+                        <td rowspan="5"></td>
+                    </tr>
+                    <tr>
+                        <td>15:15 - 16:55</td>
+                        <td rowspan="4"></td>
+                        <td></td>
+                        <td>Aplikacje mobilne wyklad</td>
+                        <td>Projektowanie oprogramowania wyklad</td>
+                    </tr>
+                    <tr>
+                        <td>17:05 - 18:45</td>
+                        <td>Podstawy Internetu rzeczy wyklad</td>
+                        <td></td>
+                        <td>Podstawy Internetu rzeczy laboratoria</td>
+                    </tr>
+                    <tr>
+                        <td>18:55 - 20:35</td>
+                        <td></td>
+                        <td>Aplikacje mobilne laboratoria</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </table>
+        </p>
 
-        <label for="haslo">Has³o:</label>
-        <input type="password" id="haslo" name="haslo" required><br><br>
+        <a id="formularz"></a>
+        <h2>Podpunkt h) Formularz</h2>
+        <form action="/submit_form" method="post">
+            <label for="login">Login:</label>
+            <input type="text" id="login" name="login" required><br><br>
 
-        <label for="telefon">Numer telefonu:</label>
-        <input type="tel" id="telefon" name="telefon" pattern="[0-9]{9}" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
 
-        <label for="data_urodzenia">Data urodzenia:</label>
-        <input type="date" id="data_urodzenia" name="data_urodzenia" required><br><br>
+            <label for="haslo">Haslo:</label>
+            <input type="password" id="haslo" name="haslo" required><br><br>
 
-        <label>P³eæ:</label><br>
-        <input type="radio" id="mezczyzna" name="plec" value="mezczyzna" required>
-        <label for="mezczyzna">Mezczyzna</label><br>
-        <input type="radio" id="kobieta" name="plec" value="kobieta" required>
-        <label for="kobieta">Kobieta</label><br>
-        <input type="radio" id="inna" name="plec" value="inna" required>
-        <label for="inne">Inna / wole nie podawac</label><br><br>
+            <label for="telefon">Numer telefonu:</label>
+            <input type="tel" id="telefon" name="telefon" pattern="[0-9]{9}" required><br><br>
 
-        <label for="kraj">Kraj:</label>
-        <select id="kraj" name="kraj" required>
-            <option value="polska">Polska</option>
-            <option value="niemcy">Niemcy</option>
-            <option value="francja">Francja</option>
-            <option value="inne">Inne</option>
-        </select><br><br>
+            <label for="data_urodzenia">Data urodzenia:</label>
+            <input type="date" id="data_urodzenia" name="data_urodzenia" required><br><br>
 
-        <label for="kolor">Ulubiony kolor:</label>
-        <input type="color" id="kolor" name="kolor" value="#ff0000"><br><br>
+            <label>Plec:</label><br>
+            <input type="radio" id="mezczyzna" name="plec" value="mezczyzna" required>
+            <label for="mezczyzna">Mezczyzna</label><br>
+            <input type="radio" id="kobieta" name="plec" value="kobieta" required>
+            <label for="kobieta">Kobieta</label><br>
+            <input type="radio" id="inna" name="plec" value="inna" required>
+            <label for="inne">Inna / wole nie podawac</label><br><br>
 
-        <label for="jezyki">Wybierz jêzyki programowania, które znasz:</label><br>
-        <input type="checkbox" id="python" name="jezyki" value="Python">
-        <label for="python">Python</label><br>
+            <label for="kraj">Kraj:</label>
+            <select id="kraj" name="kraj" required>
+                <option value="polska">Polska</option>
+                <option value="niemcy">Niemcy</option>
+                <option value="francja">Francja</option>
+                <option value="inne">Inne</option>
+            </select><br><br>
 
-        <input type="checkbox" id="javascript" name="jezyki" value="JavaScript">
-        <label for="javascript">JavaScript</label><br>
+            <label for="kolor">Ulubiony kolor:</label>
+            <input type="color" id="kolor" name="kolor" value="#ff0000"><br><br>
 
-        <input type="checkbox" id="java" name="jezyki" value="Java">
-        <label for="java">Java</label><br>
+            <label for="jezyki">Jezyki programowania, ktore znasz:</label><br>
+            <input type="checkbox" id="python" name="jezyki" value="Python">
+            <label for="python">Python</label><br>
 
-        <input type="checkbox" id="csharp" name="jezyki" value="C#">
-        <label for="csharp">C#</label><br>
+            <input type="checkbox" id="javascript" name="jezyki" value="JavaScript">
+            <label for="javascript">JavaScript</label><br>
 
-        <input type="checkbox" id="cpp" name="jezyki" value="C++">
-        <label for="cpp">C++</label><br>
+            <input type="checkbox" id="java" name="jezyki" value="Java">
+            <label for="java">Java</label><br>
 
-        <input type="checkbox" id="ruby" name="jezyki" value="Ruby">
-        <label for="ruby">Ruby</label><br><br>
+            <input type="checkbox" id="csharp" name="jezyki" value="C#">
+            <label for="csharp">C#</label><br>
 
-        <input type="submit" value="Zarejestruj siê">
+            <input type="checkbox" id="cpp" name="jezyki" value="C++">
+            <label for="cpp">C++</label><br>
 
+            <input type="checkbox" id="ruby" name="jezyki" value="Ruby">
+            <label for="ruby">Ruby</label><br><br>
 
+            <label for="doswiadczenie">Lata doswiadczenia w programowaniu:</label>
+            <input type="number" id="doswiadczenie" name="doswiadczenie"><br><br>
 
-    </form>
+            <input type="submit" value="Zarejestruj sie"> <input type="reset" value="Wyczysc dane">
+        </form>
+    </main>
 
+    <footer>
+        <h2>Podpunkt i) Linki wewnetrzne</h2>
+        <p><a href="#top">Wroc na poczatek strony</a></p>
+        <p><a href="#lista_uporzadkowana">Przejdz do listy uporzadkowanej</a></p>
+        <p><a href="#lista_nieuporzadkowana">Przejdz do listy nieuporzadkowanej</a></p>
+        <p><a href="#lista_definicji">Przejdz do listy definicji</a></p>
+        <p><a href="#lista_zagniezdzona">Przejdz do list zagniezdzonych</a></p>
+        <p><a href="#tabela">Przejdz do tabeli</a></p>
+        <p><a href="#formularz">Przejdz do formularza</a></p>
+    </footer>
+
+    <a id="bottom"></a>
 </body>
-
-
 </html>
