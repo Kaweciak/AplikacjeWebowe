@@ -1,0 +1,62 @@
+.top-gap {
+    height: 20px;
+}
+
+.main-menu {
+    position: fixed;
+    left: 0;
+    top: 0;
+    font-weight: bold;
+    color: yellow;
+    border: 3px solid pink;
+    text-align: center;
+    width: 10em;
+    background-color: blueviolet;
+    padding: 10px;
+}
+
+.menu-items {
+    display: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu:hover .menu-items {
+    display: block;
+}
+
+.menu-items li {
+    position: relative;
+    border-top: 3px solid pink;
+    background-color: bisque;
+    width: 10em;
+    color: black;
+}
+
+.menu-items li:hover {
+    background-color: aqua;
+}
+
+.menu-items li a {
+    text-decoration: none;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 10em;
+    background-color: bisque;
+    border: 3px solid pink;
+    width: 10em;
+    z-index: 1;
+}
+
+.has-submenu:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    border-top: none;
+}

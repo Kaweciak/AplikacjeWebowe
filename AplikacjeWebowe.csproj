@@ -38,6 +38,17 @@
   <ItemGroup>
     <Content Include="Cwiczenia1\Cwiczenia1.html" />
     <Content Include="Cwiczenia2\Cwiczenia2.html" />
+    <Content Include="Cwiczenia3\Strona3.css" />
+    <Content Include="Cwiczenia3\Strona3.html" />
+    <Content Include="Cwiczenia3\Style.css" />
+    <Content Include="Cwiczenia3\Strona1.html" />
+    <Content Include="Cwiczenia3\Strona2.html" />
+    <Content Include="Cwiczenia4\Zadanie1.html" />
+    <Content Include="Cwiczenia4\Zadanie1.css" />
+    <Content Include="Cwiczenia4\Zadanie1.js" />
+    <Content Include="Cwiczenia4\Zadanie2.css" />
+    <Content Include="Cwiczenia4\Zadanie2.html" />
+    <Content Include="Cwiczenia4\Zadanie2.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
