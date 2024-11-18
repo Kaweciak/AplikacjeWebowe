@@ -50,5 +50,8 @@
     <Content Include="Cwiczenia4\Zadanie2.html" />
     <Content Include="Cwiczenia4\Zadanie2.js" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Cwiczenia5\Zadanie1.cs" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

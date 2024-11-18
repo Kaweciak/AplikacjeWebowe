@@ -17,6 +17,9 @@ function setupCanvas(canvas) {
         ctx.lineTo(x, y);
         ctx.moveTo(canvas.width, canvas.height);
         ctx.lineTo(x, y);
+        //modyfikacja
+        ctx.moveTo(x, 0);
+        ctx.lineTo(x, y);
         ctx.stroke();
     });
 
