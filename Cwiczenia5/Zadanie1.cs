@@ -35,7 +35,7 @@ namespace AplikacjeWebowe.Cwiczenia5
             }
         }
 
-        static void Main(string[] args)
+        static void zad1(string[] args)
         {
             Console.WriteLine("Dla równania ax2+bx+c = 0");
             float a, b, c;
