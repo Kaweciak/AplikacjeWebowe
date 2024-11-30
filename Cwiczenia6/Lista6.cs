@@ -129,7 +129,7 @@ namespace AplikacjeWebowe.Cwiczenia6
             Console.WriteLine($"evenIntegers: {result.evenIntegers}, positiveDoubles: {result.positiveDoubles}, longStrings: {result.longStrings}, otherTypes: {result.otherTypes}");
         }
 
-        static void Main(string[] args)
+        static void zadania(string[] args)
         {
             Console.WriteLine("Które zadanie uruchomić?");
             int zadanie = int.Parse(Console.ReadLine());
